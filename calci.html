@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family:"poppins","sans-serif";
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100%;
+            height: 100vh;
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .calculator{
+            background:transparent;
+            padding: 20px;
+            border-radius: 10px;
+            border: 5px solid transparent;
+            animation-name: naman;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            border-image: linear-gradient(red, orange, yellow, blue, black) 50 stretch;
+            box-shadow: 0 0 25px grey, 0 0 10px darkblue, 0px 0px 15px white;
+        }
+
+        @keyframes naman {
+            0% {
+                border-image: linear-gradient(red, orange, yellow, blue, black) 50 stretch;
+            }
+
+            20% {
+                border-image: linear-gradient(orange, yellow, blue, black, red) 50 stretch;
+            }
+
+            40% {
+                border-image: linear-gradient(yellow, blue, black, red, orange) 50 stretch;
+            }
+
+            60% {
+                border-image: linear-gradient(blue, black, red, orange, yellow) 50 stretch;
+            }
+
+            80% {
+                border-image: linear-gradient(black, red, orange, yellow, blue) 50 stretch;
+            }
+
+            100% {
+                border-image: linear-gradient(red, orange, yellow, blue, black) 50 stretch;
+            }
+        }
+
+        form .display{
+            display: flex;
+            justify-content: flex-end;
+            margin: 20px 0;
+        }
+
+        .btn1{
+            text-align: right;
+            flex: 1;
+            font-size: 200px;
+            /* font-weight: ; */
+            box-shadow : none
+        }
+
+        .calculator form input{
+            border: 0;
+            outline: 0;
+            width: 60px;
+            height: 60px;
+            border-radius: 10px; 
+            box-shadow: 2px 2px 2px white , 2px 2px 2px white;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+            margin: 10px;
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        
+
+        form input#equal{
+            width: 145px;
+        }
+
+        .btn:active{
+            width: 55px;
+            height: 55px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display" id="display">
+                    <input type="text" name="display" class="btn1">
+                </div>
+                <div>
+                    <input type="button" value="AC" class="btn" onclick="display.value = null">
+                    <input type="button" value="DE" class="btn" onclick="deleting()">
+                    <input type="button" value="π" class="btn" onclick="display.value += Math.PI">
+                    <input type="button" value="(" class="btn" onclick="display.value += '('">
+                    <input type="button" value=")" class="btn" onclick="display.value += ')'">
+                </div>
+                <div>
+                    
+                    <input type="button" value="cos()" class="btn" onclick="display.value += 'Math.cos'">
+                    <input type="button" value="sin()" class="btn" onclick="display.value += 'Math.sin'">
+                    <input type="button" value="tan()" class="btn" onclick="display.value += 'Math.tan'">
+                    <input type="button" value="log()" class="btn" onclick="display.value += 'Math.log('">
+                    <input type="button" value="/" class="btn" onclick="display.value += '/'">
+                </div>
+                <div>
+                    <input type="button" value="^" class="btn" onclick="display.value += '**'">
+                    <input type="button" value="7" class="btn" onclick="display.value += 7">
+                    <input type="button" value="8" class="btn" onclick="display.value += 8">
+                    <input type="button" value="9" class="btn" onclick="display.value += 9">
+                    <input type="button" value="*" class="btn" onclick="display.value += '*'">
+                </div>
+                <div>
+                    <input type="button" value="e" class="btn" onclick="display.value += Math.E">
+                    <input type="button" value="4" class="btn" onclick="display.value += 4">
+                    <input type="button" value="5" class="btn" onclick="display.value += 5">
+                    <input type="button" value="6" class="btn" onclick="display.value += 6">
+                    <input type="button" value="-" class="btn" onclick="display.value += '-'">
+                </div>
+                <div>
+                    <input type="button" value="π" class="btn" onclick="display.value += Math.PI">
+                    <input type="button" value="1" class="btn" onclick="display.value += 1">
+                    <input type="button" value="2" class="btn" onclick="display.value += 2">
+                    <input type="button" value="3" class="btn" onclick="display.value += 3">
+                    <input type="button" value="+" class="btn" onclick="display.value += '+'">
+                </div>
+
+
+                <div>
+                    <input type="button" value="00" class="btn" onclick="display.value += '00'">
+                    <input type="button" value="0" class="btn" onclick="display.value += 0">
+                    <input type="button" value="." class="btn" onclick="display.value += '.'">
+                    <input type="button" value="=" id="equal" class="btn" onclick="display.value = eval(display.value)">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    function deleting(){
+        let display = document.getElementById("display")
+        display.children[0].value = display.children[0].value.replace(display.children[0].value[display.children[0].value.length -1],"")
+    }
+
+    // function answer() {
+    //     let display = document.getElementById("display")
+    //     let a = display.children[0].value
+    //     console.log(a)
+    // }
+</script>
+</html>

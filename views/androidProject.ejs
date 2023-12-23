@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="sty.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<style>
+    .hidden{
+        display: none;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color fixed-top" style="background-color: black;">
+        <div class="container-fluid">
+            <a class="navbar-brand me-5 fs-5 fw-bolder" href="#">Developers</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" style="color: black;" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown rt">
+                        <a class="nav-link dropdown-toggle me-4" href="#" style="color: black;" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Essentials
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-4" href="#" style="color: black;" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Design $ Plans
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle me-4" href="#" style="color: black;" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Develop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" style="color: black;" aria-current="page" href="#">Google
+                            Play</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-4" style="color: black;" aria-current="page" href="#">Community</a>
+                    </li>
+
+
+
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <form action="/bs" , method="post">
+                    <button class="btn btn-outline-danger" type="submit">Logout</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-main bg-color">
+        <div class="container bgbg">
+            <div class="row">
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 justify-content-center align-items-center sv">
+                    <div class="row text-center frt mt-5">
+                        A new foundation for AI on Android
+                    </div>
+                    <div class="row fs-4 text-center mt-5 sv1">We announced Gemini, our latest and most capable
+                        generative AI model. Learn more
+                        about how easy it is to start building Android apps that leverage generative AI.
+                    </div>
+                    <div class="container-fluid mt-5">
+                        <div class="row fgh1">
+                            <button
+                                class="fgh fgh2 col-md-12 col-lg-5 col-xl-5 col-xxl-5 col-sm-12 col-xs-12 mb-sm-12 mb-xs-12">Read
+                                announcement</button>
+                            <button
+                                class="fgh fgh3 col-md-12 col-lg-5 col-xl-5 col-xxl-5 col-sm-12 col-xs-12 ms-lg-3 ms-xl-3 ms-xxl-3 mt-xs-3 mt-sm-3 mt-lg-0 mt-xl-0 mt-xxl-0">Read
+                                AICore documentation</button>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-0 justify-content-center align-items-center sv sv2">
+                    <img src="logo1.png" alt="error" class="img-thumnail">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row sg1">
+            <button
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 ff mt-md-3 mt-sm-3 mt-xs-3 mt-xxs-3 bmi">
+                <img src="img1.png" class="ff1 ms-1" alt="error">
+                <span class="ff2 ms-1">Download Android Studio</span>
+                <img src="subimg1.png" alt="error" class="float-end">
+            </button>
+
+            <button
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 ff mt-md-3 mt-sm-3 mt-xs-3 mt-xxs-3 bmi">
+                <img src="img2.png" class="ff1" alt="error">
+                <span class="ff2">Download Android Studio</span>
+                <img src="subimg3.png" alt="error">
+            </button>
+
+            <button
+                class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 ff23 mt-md-3 mt-sm-3 mt-xs-3 mt-xxs-3 bmi">
+                <img src="img3.png" alt="error" class="ff1">
+                <span class="ff2">Download Android Studio</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 sst">
+                <div class="card car">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h6 class="card-title mb-5">Featured</h6>
+                            <h2 class="card-subtitle mb-2 mb-3 asd">Wear OS 4 is on more watches
+                            </h2>
+                            <p class="card-text mb-5">Wear OS 4 is stable and available on more devices, including the
+                                new
+                                google pixel watch 2. Get your app ready today.</p>
+                            <button class="fgh33">Read The Blog</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="cardimg2.png" alt="error" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-0 mt-md-0 mt-xl-0 mt-xxl-0 sst">
+                <div class="card car">
+                    <div class="col-8">
+                        <div class="card-body">
+                            <h6 class="card-title mb-5">Featured</h6>
+                            <h2 class="card-subtitle mb-2 mb-3 asd">Notes From Google Play
+                            </h2>
+                            <p class="card-text mb-5">Take a look back at some of the key tools, features and programmes
+                                released this year to help you build successful apps and game businesses</p>
+                            <button class="fgh33">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="cardimg1.png" alt="error" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid bg-main2 bg-color2 border-bottom mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="cls mt-5 me-5">Developer's Center</div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4">
+                    <div class="card car">
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title mb-5">NEW</h6>
+                                <h2 class="card-subtitle mb-2 mb-3 asd">Media Apps
+                                </h2>
+                                <p class="card-text mb-5">Learn how to build and extent engaging media experiences to
+                                    users across Android's multidevice ecosystem</p>
+                                <button class="fgh33 fgh36"><a href="mediaappslearnmore.html" class="aa">Learn more</a></button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="aass"><img src="cards2.png" alt="error" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car">
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title mb-5">NEW</h6>
+                                <h2 class="card-subtitle mb-2 mb-3 asd">Games
+                                </h2>
+                                <p class="card-text mb-5">You use a game engine for most of ypur game design and
+                                    development, but you still need to use Android tools to get the job done</p>
+                                <button class="fgh33 fgh35"><a href="games.html" class="wqa">Learn more</a></button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="aass"><img src="cards22.png" alt="error" class="img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car">
+                        <div class="col-8 hjk">
+                            <div class="card-body">
+                                <h6 class="card-title mb-5">NEW</h6>
+                                <h2 class="card-subtitle mb-2 mb-3 asd">Health $ Fitness
+                                </h2>
+                                <p class="card-text mb-5">Take your health and fitness app to a next level using Health
+                                    Services with Health Connect</p>
+                                <button class="fgh33 fgh34 ">Learn more</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="aass"><img src="cards222.png" alt="error" class="img-thumnail">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car1 cars">
+                        <div class="hjk">
+                            <div class="card-body">
+                                <img src="img1.png" alt="error" class="img-thumnail dfg1">
+                                <h2 class="card-subtitle mt-2 text-body-secondary mb-3 asd">Platform Updates
+                                </h2>
+                                <p class="card-text mb-5">keep up to date with what's going on with the Android Platform
+                                </p>
+                                <button
+                                    class="fgh9 fgh2 col-md-12 col-lg-10 col-xl-10 col-xxl-10 col-sm-12 col-xs-12 mb-sm-12 mb-xs-12">Go
+                                    to Android Platform</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="opiop.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">The secret to Android's improved
+                                    memory on 1B+ Devices: The latest Android Runtime update
+                                </h2>
+                                <p class="card-text mb-5">The Android Runtime (ART) executes Dalvik bytecode produced
+                                    from apps and system services written in the Java or Kotlin languages. We constantly
+                                    improve ART to generate smaller and more performant code...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="pqrst.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">AndroidX moving to minSdkVersion
+                                    19
+                                </h2>
+                                <p class="card-text mb-5">Today we're releasing Android 14 and pushing the Android 14
+                                    source to the Android Open Source Project (AOSP). Android 14 is designed to improve
+                                    your productivity as developers while enhancing...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="pp.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mb-3">Wear OS 4 is now stable and
+                                    available on Google Pixel Watch 2!
+                                </h2>
+                                <p class="card-text mb-5">We're excited to bring Wear OS 4 and new user experiences to
+                                    more devices, including the new Google Pixel Watch 2! We're also providing updated
+                                    developer tools for you to prepare your apps for Wear...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="pp.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Android 14 is live on AOSP
+                                </h2>
+                                <p class="card-text mb-5">Today we're releasing Android 14 and pushing the Android 14
+                                    source to the Android Open Source Project (AOSP). Android 14 is designed to improve
+                                    your productivity as developers while enhancing...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car1 cars">
+                        <div class="hjk">
+                            <div class="card-body">
+                                <img src="newimg1.png" alt="error" class="img-thumnail dfg1">
+                                <h2 class="card-subtitle mt-2 mb-3 asd">Tools Updates
+                                </h2>
+                                <p class="card-text mb-5">The latest on tools that help you build the highest quality
+                                    Android apps for every Android device.
+                                </p>
+                                <button
+                                    class="fgh9 fgh2 col-md-12 col-lg-10 col-xl-10 col-xxl-10 col-sm-12 col-xs-12 mb-sm-12 mb-xs-12">Go
+                                    to Studio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="sc.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">STUDIO BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Android Studio Iguana
+                                </h2>
+                                <p class="card-text mb-5">Android Studio Iguana | 2023.2.1 Canary 17 is now available in
+                                    the Canary channel. If you already have an Android Studio build on the Canary
+                                    channel, you can get the update by clicking Help &gt; Check for Update or Android
+                                    Studio, Check for...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="sc.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">STUDIO BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Android Studio Iguana
+                                </h2>
+                                <p class="card-text mb-5">Android Studio Iguana | 2023.2.1 Canary 16 is now available in
+                                    the Canary channel. If you already have an Android Studio build on the Canary
+                                    channel, you can get the update by clicking Help &gt; Check for Update or Android
+                                    Studio, Check for...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- <div class="custom-shape-divider-bottom-1702272553">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div> -->
+
+        <!-- <div class="wave"></div> -->
+
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="mt-5 mb-5">Explore more</h1>
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4">
+                        <div class="card car">
+                            <div class="card-body">
+                                <h2 class="card-subtitle mb-2 mb-3 asd fs-3">Developer Guides
+                                </h2>
+                                <p class="card-text mt-5 mb-5 fs-5 asd">Find training classes that describe how to
+                                    accomplish a
+                                    specific task with code samples you can re-use in your app.</p>
+                                <img src="i1.png" alt="error" class="img-fluid qqqq1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4">
+                        <div class="card car">
+                            <div class="card-body">
+                                <h2 class="card-subtitle mb-2 mb-3 asd fs-3">Sample Code
+                                </h2>
+                                <p class="card-text mt-5 mb-5 fs-5 asd">Jump-start your development using these sample
+                                    projects.</p>
+                                <img src="i2.png" alt="error" class="img-fluid qqqq2">
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4">
+                        <div class="card car">
+                            <div class="card-body">
+                                <h2 class="card-subtitle mb-2 mb-3 asd fs-3">Quality guidlines
+                                </h2>
+                                <p class="card-text mt-5 mb-5 fs-5 asd">Build a high quality app with these design and
+                                    behavior guidlines.</p>
+                                <img src="i3.png" alt="error" class="img-fluid qqqq3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4">
+                        <div class="card car">
+                            <div class="card-body">
+                                <h2 class="card-subtitle mb-2 mb-3 asd fs-3">Distribute
+                                </h2>
+                                <p class="card-text mt-5 mb-5 fs-5 asd">Learn how to launch and distribute your apps and
+                                    games successfully</p>
+                                <img src="i4.png" alt="error" class="img-fluid qqqq4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-main3 bg-color3 border-bottom mt-5">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car1 cars">
+                        <div class="hjk">
+                            <div class="card-body">
+                                <img src="ic1.png" alt="error" class="img-thumnail dfg1">
+                                <h2 class="card-subtitle mt-2 mb-3 asd">Latest news
+                                </h2>
+                                <p class="card-text mb-5">Keep up to date with what's going on in Android.
+                                </p>
+                                <button
+                                    class="fgh9 fgh2 col-md-12 col-lg-10 col-xl-10 col-xxl-10 col-sm-12 col-xs-12 mb-sm-12 mb-xs-12 sms">View
+                                    all news</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg1.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Android Studio Hedgehog is stable
+                                </h2>
+                                <p class="card-text mb-5">Updated November 30, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg2.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">MEDIUM</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Now in Android #96
+                                </h2>
+                                <p class="card-text mb-5">Updated November 30, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg3.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">BLOG</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Notes from Google Play : Celebrating another year of
+                                    partenership and innovation
+                                </h2>
+                                <p class="card-text mb-5">Updated November 29, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg4.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">MEDIUM</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Now in Android #95
+                                </h2>
+                                <p class="card-text mb-5">Updated November 17, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 sst">
+                    <div class="card car1 cars">
+                        <div class="hjk">
+                            <div class="card-body">
+                                <img src="ic2.png" alt="error" class="img-thumnail dfg1">
+                                <h2 class="card-subtitle mt-2 mb-3 asd">Latest videos
+                                </h2>
+                                <p class="card-text mb-5">Get the latest Android news, best practices, live videos,
+                                    demonstrations, tutorials.
+
+                                </p>
+                                <button
+                                    class="fgh9 fgh2 col-md-12 col-lg-10 col-xl-10 col-xxl-10 col-sm-12 col-xs-12 mb-sm-12 mb-xs-12">View
+                                    all videos</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg5.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">YOUTUBE</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Android Developer Story : Archeland reaches more
+                                    gamers with Google Play Games
+                                </h2>
+                                <p class="card-text mb-5">Updated December 8, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-sm-4 mt-xs-4 mt-lg-4 mt-md-4 mt-xl-4 mt-xxl-4 hhh">
+                    <div class="card cr">
+                        <div>
+                            <div class="card-body">
+                                <img src="igg6.png" alt="error" class="img-fluid col-12 ssst">
+                                <h6 class="card-subtitle mt-2 text-body-secondary mb-3">YOUTUBE</h6>
+                                <h2 class="card-subtitle mt-2 mb-3">Techniques to improve your jetpack compose app
+                                    performance
+                                </h2>
+                                <p class="card-text mb-5">Updated December 7, 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card bgg mt-5 me-5">
+                    <img src="x.png" class="card-img-top bgg1" alt="error">
+                    <div class="card-body">
+                        <h5 class="card-title bgg2">X</h5>
+                        <p class="card-text bgg3">Follow @AndroidDev on X</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card bgg mt-5 me-5">
+                    <img src="youtube.png" class="card-img-top bgg1" alt="error">
+                    <div class="card-body">
+                        <h5 class="card-title bgg2">You Tube</h5>
+                        <p class="card-text bgg3">Developers on YouTube</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="card bgg mt-5">
+                    <img src="linkedin.png" class="card-img-top bgg1" alt="error">
+                    <div class="card-body">
+                        <h5 class="card-title bgg2">linkedin</h5>
+                        <p class="card-text bgg3">Connect with the Android Developers community on LinkedIn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid sb border-top border-bottom">
+        <!-- <div class="container"> -->
+        <div class="row">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">MORE ANDROID</h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Android</li>
+                            <li class="card-subtitle mb-2  lit">Android for Enterprise</li>
+                            <li class="card-subtitle mb-2  lit">Security</li>
+                            <li class="card-subtitle mb-2  lit">Source</li>
+                            <li class="card-subtitle mb-2  lit">News</li>
+                            <li class="card-subtitle mb-2  lit"> Blog</li>
+                            <li class="card-subtitle mb-2  lit">Podcasts</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">DISCOVER</h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Gaming</li>
+                            <li class="card-subtitle mb-2  lit">Machine Learning</li>
+                            <li class="card-subtitle mb-2  lit">Privacy</li>
+                            <li class="card-subtitle mb-2  lit">5G</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">ANDROID DEVICES</h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Large Screens</li>
+                            <li class="card-subtitle mb-2  lit">Wear OS</li>
+                            <li class="card-subtitle mb-2  lit">ChromeOS devices</li>
+                            <li class="card-subtitle mb-2  lit">Android for cars</li>
+                            <li class="card-subtitle mb-2  lit">Android Things</li>
+                            <li class="card-subtitle mb-2  lit">Android TV</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">RELEASES</h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Android 13</li>
+                            <li class="card-subtitle mb-2  lit">Android 12</li>
+                            <li class="card-subtitle mb-2  lit">Android 11</li>
+                            <li class="card-subtitle mb-2  lit">Android 10</li>
+                            <li class="card-subtitle mb-2  lit">Pie</li>
+                            <li class="card-subtitle mb-2  lit">Oreo</li>
+                            <li class="card-subtitle mb-2  lit">Nougat</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">DOCUMENTATION AND DOWNLOADS</h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Android Studio guide</li>
+                            <li class="card-subtitle mb-2  lit">Developers guides</li>
+                            <li class="card-subtitle mb-2  lit">API reference</li>
+                            <li class="card-subtitle mb-2  lit">Download Studio</li>
+                            <li class="card-subtitle mb-2  lit">Android NDK</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+                <div class="card lit1 mt-5">
+                    <div class="card-body">
+                        <ul>
+                            <li class="lit">
+                                <h6 class="card-title mb-4">SUPPORT
+                                </h6>
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Report </li>
+                            <li class="card-subtitle mb-2  lit">platform bug
+                            </li>
+                            <li class="card-subtitle mb-2  lit">Report documentation bug
+                            </li>
+                            <li class="card-subtitle mb-2  lit"> Google Play support
+                            </li>
+                            <li class="card-subtitle mb-2  lit"> Join research studies</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+
+    <!-- <div class="container-fluid border-bottom">
+        <div class="row">
+            <div class="ffdd">
+                <img src="googlee.png" alt="error"
+                    class="qqq ms-4 text-body-secondary col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <div class=" qqq ms-4 col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-4 col-xs-12">Android</div>
+                <div class="qqq ms-4 col-xxl-1  col-xl-1 col-lg-1 col-md-1 col-sm-4 col-xs-12">Chrome</div>
+                <div class="qqq ms-4 col-xxl-1 col-xl-1 col-lg-1  col-md-1 col-sm-4 col-xs-12">Firebase</div>
+                <div class="qqq ms-4 col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-12  col-xs-12">Google Cloud
+                    Platform
+                </div>
+                <div class="qqq ms-4 col-xxl-1 col-xl-1 col-lg-1 col-md-1 col-sm-4 col-xs-12 ">All products</div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-0 col-xs-0"></div>
+        </div>
+    </div> -->
+
+    <div class="container-fluid border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-7 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 sd">
+                    <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-4 f mt-5 mb-5 kksd">Privacy
+                    </div>
+                    <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-4 f mt-5 mb-5 kksd">License
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-4 f1 mt-5 mb-5 kksd">Brand
+                        guidelines</div>
+                </div>
+                <div class="col-xxl-1 col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+                <div class="col-xxl-4 col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 ssdddd sd">
+                <!-- <div class="ssdddd"> -->
+                    <!-- <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 mt-5 mb-5 text-center">Get news and
+                        tips
+                        by email
+                    </div>
+                    <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 vfr"><button
+                            class="fgh313">Subscribe</button>
+                    </div> -->
+                <!-- </div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        <div class="col-9">
+
+        </div>
+        <div class="col-3">
+            <form action="/bsp" , method="post">
+                <button class="btn btn-outline-danger" type="submit">Permanently delete the account</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="hidden" id="hidden">Hello <%= Name %></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        let y = document.getElementById("hidden").innerHTML
+        console.log(y)
+        confirm(y)
+    </script>
+</body>
+
+</html>

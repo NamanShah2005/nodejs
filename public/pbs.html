@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffessional</title>
+    <style>
+        body {
+            background-color: black;
+            /* width: 100%;
+            height: 100%; */
+        }
+
+        .coon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            border: 5px solid transparent;
+            border-image: linear-gradient(red, orange, yellow, blue, black) 30 stretch;
+            margin-top: 20px;
+            animation-name: naman;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            /* color: white; */
+            box-shadow: 0 0 25px grey, 0 0 5px darkblue, 1px 1px 2px white;
+
+        }
+
+        .contain {
+            color: white;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 3px;
+        }
+
+        @keyframes naman {
+            0% {
+                border-image: linear-gradient(red, orange, yellow, blue, black) 50 stretch;
+            }
+
+            20% {
+                border-image: linear-gradient(orange, yellow, blue, black, red) 50 stretch;
+            }
+
+            40% {
+                border-image: linear-gradient(yellow, blue, black, red, orange) 50 stretch;
+            }
+
+            60% {
+                border-image: linear-gradient(blue, black, red, orange, yellow) 50 stretch;
+            }
+
+            80% {
+                border-image: linear-gradient(black, red, orange, yellow, blue) 50 stretch;
+            }
+
+            100% {
+                border-image: linear-gradient(red, orange, yellow, blue, black) 50 stretch;
+            }
+        }
+
+        .cartoon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 7px black, 0 0 60px blue, 0 0 20px darkblue;
+            /* background-image: url(opiop.png);
+            background-size: contain;
+            -webkit-background-clip: text; */
+        }
+
+        .bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .jkl {
+            color: white;
+            background-color: black;
+            position: relative;
+            display: inline;
+            padding: 10px;
+            border: 5px solid transparent;
+            border-image: linear-gradient(darkgreen, lightgreen, white) 10 stretch;
+            animation-name: naman1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        .try {
+            position: absolute;
+            visibility: hidden;
+            color: greenyellow;
+            top: 120%;
+            width: 600px;
+            left: 50%;
+            margin-left: -300px;
+            border: 3px solid white;
+        }
+
+        .jkl:hover .try {
+            visibility: visible;
+        }
+
+        @keyframes naman1 {
+            0% {
+                border-image: linear-gradient(darkgreen, lightgreen, white) 10 stretch;
+            }
+
+            33% {
+                border-image: linear-gradient(lightgreen, white, darkgreen) 10 stretch;
+            }
+
+            66% {
+                border-image: linear-gradient(white, darkgreen, lightgreen) 10 stretch;
+            }
+
+
+            100% {
+                border-image: linear-gradient(darkgreen, lightgreen, white) 10 stretch;
+            }
+        }
+
+        .canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bb {
+            color: blue;
+        }
+
+        .error{
+            color: red;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/b" method="post" onsubmit="return checkform()">
+        <div class="coon">
+            <div class="container">
+                <div class="contain">
+                    Name : <input type="text" name="Name" placeholder="Enter Your Name Here" id="Name">
+                </div>
+                <div class="contain">
+                    Age : <input type="number" name="Age" placeholder="Enter Your Age Here" id="Age">
+                </div>
+                <div class="contain">
+                    <label for="n">
+                        Gender : Male : <input type="radio" id="n" name="Gender" value="Male">
+                        Female : <input type="radio" id="nn" name="Gender" value="Male">
+                    </label>
+                </div>
+                <div class="contain">
+                    Course : <select name="Course" id="course" name="Course">
+                        <option value="select">Select</option>
+                        <option value="Data">Data</option>
+                        <option value="Artificial">Artificial</option>
+                        <option value="Machine">Machine</option>
+                        <option value="Ethical">Ethical</option>
+                    </select>
+                </div>
+                <div class="contain">
+                    Date Of Birth : <input type="date" name="Date">
+                </div>
+                <div class="contain">
+                    EmailID : <input type="email" name="Email" placeholder="Enter Your EmailID Here" id="Email">
+                </div>
+
+                <div class="contain">
+                    Password : <input type="password" name="Password">
+                </div>
+
+                <div class="contain bb">
+                    <a href="withlogform.html" class="bb">Log in</a>
+                </div>
+
+                <!-- <p class="error"> <%= locals.message %></p> -->
+                <div class="contain">
+                    <input type="submit" value="Submit">
+                    <input type="Reset" value="Reset">
+                    <!-- <form action="/bsp" , method="post">
+                        <button class="btn btn-outline-danger" type="submit">Permanently delete the account</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+</body>
+
+<script>
+    function checkform() {
+        let name = document.getElementById("Name").value
+        let mail = document.getElementById("Email").value
+        let age = document.getElementById("Age").value
+
+        if (name == "" || mail == "" || age == ""){
+            alert("Please fill the complete form")
+            return false
+        }
+
+        else{
+            return true
+        }
+    }
+</script>
+
+</html>

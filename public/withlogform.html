@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            /* position: relative; */
+            display: grid;
+            grid-template-columns: 172px 172px 172px 172px 172px 172px 172px 172px 172px;
+        }
+
+        .item {
+            background-color: rgb(36, 34, 34);
+            border: 2px solid rgb(0, 0, 0);
+            width: 170px;
+            height: 170px;
+            /* transition-timing-function:ease-out; */
+            /* transition: all 0.5s; */
+        }
+
+        .item:hover {
+            background-color: white;
+        }
+
+
+        /* .item:not(:hover){
+            background-color: rgb(1, 255, 1);
+        } */
+
+        .coon1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 15%;
+            margin-left: 40%;
+        }
+
+        .conts {
+            border: 5px solid transparent;
+            border-image: linear-gradient(white, transparent, transparent, white, transparent) 30 stretch;
+            margin-top: 20px;
+            animation-name: naman;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            /* color: white; */
+            /* box-shadow: 0 0 25px grey, 0 0 5px darkblue, 1px 1px 2px white; */
+            background-color: black;
+            outline: 1px solid black;
+        }
+
+        .conts:hover {
+            border: 2px solid white;
+        }
+
+        .contain {
+            color: white;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 3px;
+        }
+
+        .btn {
+            width: 230px;
+            height: 30px;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+        }
+
+        .head {
+            margin-top: 10px;
+            color: white;
+            align-items: center;
+            text-align: center;
+        }
+
+        @keyframes naman {
+            0% {
+                border-image: linear-gradient(white, transparent, transparent, white, transparent) 50 stretch;
+            }
+
+            20% {
+                border-image: linear-gradient(transparent, white, transparent, transparent, white) 50 stretch;
+            }
+
+            40% {
+                border-image: linear-gradient(white, transparent, white, transparent, transparent) 50 stretch;
+            }
+
+            60% {
+                border-image: linear-gradient(transparent, white, transparent, white, transparent) 50 stretch;
+            }
+
+            80% {
+                border-image: linear-gradient(transparent, transparent, white, transparent, white) 50 stretch;
+            }
+
+            100% {
+                border-image: linear-gradient(white, transparent, transparent, white, transparent) 50 stretch;
+            }
+        }
+
+        .bb {
+            color: blue;
+            margin-left: 30px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="coon">
+        <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+    <form method="post" action="/bb">
+        <div class="coon1">
+            <div class="conts">
+                <h1 class="head">Form</h1>
+                <div class="contain">
+                    Name : <input type="text" placeholder="Enter Your Name Here" name="Name">
+                </div>
+                <div class="contain">
+                    Age : <input type="number" placeholder="Enter Your Age Here" name="Age">
+                </div>
+                <div class="contain">
+                    <label for="n">
+                        Gender : Male : <input type="radio" id="n" name="Gender" value="Male">
+                        Female : <input type="radio" id="n" name="Gender" value="Female">
+                    </label>
+                </div>
+                <div class="contain">
+                    Course : <select name="Course" id="course" name="Course">
+                        <option value="select">Select</option>
+                        <option value="Data">Data</option>
+                        <option value="Artificial">Artificial</option>
+                        <option value="Machine">Machine</option>
+                        <option value="Ethical">Ethical</option>
+                    </select>
+                </div>
+                <div class="contain">
+                    Date Of Birth : <input type="date" name="Date">
+                </div>
+                <div class="contain">
+                    EmailID : <input type="email" placeholder="Enter Your EmailID Here" name="Email">
+                </div>
+
+                <div class="contain">
+                    Password : <input type="password" name="Password">
+                </div>
+                
+                <a href="pbs.html" class="bb">Log in</a>
+                <div class="contain">
+                    <button class="btn"></a>Sign up</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+</body>
+<script async="">
+
+
+    document.addEventListener("mouseout", function (event) {
+        event.target.style = "transition: all 3s;"
+        setTimeout(() => {          // so that ham jab bhi mouse le uske 1.7 seconds ke baad function chale 
+            event.target.style = "";
+        }, 1700);
+    })
+
+
+
+</script>
+
+</html>

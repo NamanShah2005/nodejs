@@ -1,0 +1,43 @@
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 255, 0);
+}
+
+.class{
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(215, 226, 250);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.i1{
+    width: 200px;
+    margin: 30px;
+    padding: 5px;
+}
+
+.i2{
+    width: 200px;
+    margin: 30px;
+    padding: 5px;
+}
+
+.w{
+    margin-left: 10px;
+}
+
+.sub{
+    margin: 30px;
+    padding: 10px;
+}
+
+.klj{
+    color: red;
+    display: none;
+}

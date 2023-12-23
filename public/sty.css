@@ -1,0 +1,557 @@
+.bg-color {
+    background-color: rgb(223, 236, 244);
+    width: 100%;
+}
+
+.bgbg {
+    height: 70vh;
+    width: 100%;
+}
+
+
+.frt {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.sv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sv2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+.sv1 {
+    line-height: 40px;
+
+}
+
+.fgh {
+    height: 55px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.fgh1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fgh2 {
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+
+.fgh3 {
+    background-color: white;
+    font-size: large;
+}
+
+.fgh2:hover {
+    background-color: rgb(199, 193, 193);
+    color: black;
+    border: none;
+}
+
+.fgh3:hover {
+    background-color: black;
+    color: white;
+}
+
+.sg1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sg2 {
+    border-radius: 30px;
+}
+
+.ff {
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+.ff23 {
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+.car {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    /* background-color: transparent; */
+}
+
+.asd {
+    color: black;
+}
+
+.fgh33 {
+    height: 55px;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.car:hover {
+    box-shadow: 2px 2px 7px black;
+
+    .fgh33{
+        background-color: black;
+        color: white;
+    }
+
+    .aa {
+        background-color: black;
+        color: white;
+    }
+
+    .wqa{
+        background-color: black;
+        color: white;
+    }
+}
+
+.bmi:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.bg-main2 {
+    height: 200vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.bg-color2 {
+    background-color: rgb(235, 233, 233);
+    height: 340vh;
+    width: 100%;
+    border-bottom: 0.5px solid black;
+}
+
+.bg-main3 {
+    height: 240vh;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.bg-color3 {
+    background-color: rgb(235, 233, 233);
+    height: 240vh;
+    width: 100%;
+    border-bottom: 0.5px solid black;
+}
+
+.cls {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+
+.hjk {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+.aass {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dfg {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dfg1 {
+    /* border: 2px solid black; */
+    height: 90px;
+    width: 90px;
+}
+
+/* .dfg2{
+    line-height: 50px;
+    color: rgb(36, 36, 36);
+} */
+
+.wqa{
+    text-decoration: none;
+    color: black;
+}
+
+.cars {
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car1 {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    /* background-color: transparent; */
+}
+
+.fgh9 {
+    height: 45px;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+.cr {
+    border: none;
+    background: transparent;
+}
+
+.ssst {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+/* .hhh{
+    border: 2px solid black;
+} */
+
+/* .custom-shape-divider-bottom-1702272553 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1702272553 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 102px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1702272553 .shape-fill {
+    fill: #FFFFFF;
+} */
+
+.sms {
+    width: 170px;
+}
+
+.bgg {
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgg1 {
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid purple; */
+}
+
+.bgg2 {
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.bgg3 {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.lit1 {
+    border: none;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lity {
+    text-align: center;
+}
+
+.lit {
+    list-style: none;
+    text-align: left;
+    /* text-align: center; */
+}
+
+.sb {
+    /* border: 2px solid black; */
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+}
+
+.ffdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.qqq {
+    font-size: 15px;
+}
+
+.sd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.f {
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+.f1 {
+    text-align: center;
+}
+
+.fgh313 {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 130px;
+    border-radius: 20px;
+}
+
+.rtx {
+    list-style: none;
+}
+
+.aa {
+    text-decoration: none;
+    color: black;
+}
+
+/* .ssdddd{ */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+
+/* .ssdddd{
+    border:2px solid green;
+} */
+
+.vfr{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .vfr1{
+    border: 2px solid black;
+}
+
+.vfr12{
+    border: 2px solid greenyellow;
+} */
+
+@media only screen and (min-width:1437px) {
+    .fgh34 {
+        border-radius: 50px;
+        margin-top: 70px;
+    }
+
+    .fgh35 {
+        border-radius: 50px;
+        margin-top: 26px;
+    }
+
+    .fgh36 {
+        border-radius: 50px;
+        margin-top: 46px;
+    }
+
+    .qqqq1 {
+        /* float: left; */
+        margin-top: 0px;
+        margin-left: 130px;
+    }
+
+    .qqqq2 {
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+
+    .qqqq3 {
+        margin-top: 50px;
+        margin-left: 130px;
+    }
+
+    .qqqq4 {
+        margin-top: 60px;
+        margin-left: 100px;
+    }
+
+    .sv {
+        height: 70vh;
+    }
+}
+
+
+
+@media only screen and (max-width:1437px) {
+
+    .bg-main {
+        height: 100vh;
+    }
+
+    .sv {
+        height: 100vh;
+    }
+
+    .sv2 {
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width:990px) {
+
+    .bg-main {
+        height: 160vh;
+        width: 100%;
+    }
+
+    .sv {
+        height: 100vh;
+    }
+
+    .sv2 {
+        height: 50vh;
+    }
+
+    .bg-main2 {
+        height: 750vh;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .bg-color2 {
+        background-color: rgb(235, 233, 233);
+        height: 900vh;
+        width: 100%;
+    }
+
+    .bg-main3 {
+        height: 550vh;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .bg-color3 {
+        background-color: rgb(235, 233, 233);
+        height: 700vh;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width:790px) {
+
+    .bgbg {
+        height: 200vh;
+    }
+
+    .bg-main {
+        height: 160vh;
+        width: 100%;
+    }
+
+    .sv {
+        height: 100vh;
+    }
+
+    .sv2 {
+        height: 50vh;
+    }
+
+    .bg-main2 {
+        height: 700vh;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .bg-color2 {
+        background-color: rgb(235, 233, 233);
+        height: 800vh;
+        width: 100%;
+    }
+
+    .bg-main3 {
+        height: 500vh;
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+
+    .bg-color3 {
+        background-color: rgb(235, 233, 233);
+        height: 600vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1300px)  {
+    .kksd {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+
+@media only screen and (max-width:297px){
+    .lmx{
+        font-size: 52px;
+    }
+}
